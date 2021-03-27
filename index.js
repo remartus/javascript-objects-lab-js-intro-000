@@ -14,10 +14,11 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 
 //no more destruction
 function deleteFromObjectByKey(object, key){
-  
+
 }
 
-//Super Delete 
+//Super Delete
 function destructivelyDeleteFromObjectByKey(object, key){
-  
+  delete object[key]
+  return object
 }
