@@ -16,3 +16,8 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 function deleteFromObjectByKey(object, key){
   
 }
+
+//Super Delete 
+function destructivelyDeleteFromObjectByKey(object, key){
+  
+}
