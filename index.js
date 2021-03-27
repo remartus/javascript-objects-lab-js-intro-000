@@ -3,7 +3,7 @@ var recipes = new Object()
 
 //not modifying original, using clone
 function updateObjectWithKeyAndValue(object, key, value){
-  return Object.assign({}, {key: value})
+  return Object.assign({}, object, {key: value})
 }
 
 // we get to destroy
