@@ -14,7 +14,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 
 //no more destruction
 function deleteFromObjectByKey(object, key){
-  var testObj = Object.assign
+  var testObj = Object.assign({}, object)
 }
 
 //Super Delete
